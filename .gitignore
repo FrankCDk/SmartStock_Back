@@ -1,0 +1,72 @@
+# Archivos y carpetas generados por el SDK de .NET
+bin/
+obj/
+
+# Configuración de usuario de Visual Studio
+.vs/
+
+# Dependencias y compilaciones de paquetes NuGet
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# Archivos de configuración de usuario de Visual Studio
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Archivos de lock y restore de Visual Studio
+project.lock.json
+project.fragment.lock.json
+
+# Configuración de usuario de Rider (JetBrains)
+.idea/
+*.sln.iml
+
+# Configuración temporal y de caché
+.DS_Store
+Thumbs.db
+
+# Archivos de registro y dumps
+*.log
+*.dmp
+*.mdmp
+
+# Archivos de configuración de seguridad y secretos
+appsettings.*.json
+secrets.json
+
+# Certificados de desarrollo
+*.pfx
+*.p12
+
+# Archivos generados por dotnet watch y coverage
+**/TestResults/
+coverage/
+.coverage
+
+# Archivos generados por herramientas de análisis estático
+stylecop.report.xml
+ReportGenerator_*
+FodyWeavers.xml
+
+# Configuraciones de usuario de Visual Studio Code
+.vscode/
+
+# Archivos generados por Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+resharper.xml
+
+# Configuración temporal de npm y yarn
+node_modules/
+yarn.lock
+
+# Archivos y carpetas generados para Docker
+docker-compose.override.yml
+.docker/
+
+# Ignora la carpeta Publish (si se genera con dotnet publish)
+publish/
